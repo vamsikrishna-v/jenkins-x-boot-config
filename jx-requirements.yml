@@ -1,9 +1,10 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
+  clusterName: "test"
+  environmentGitOwner: "UCAS"
   environmentGitPublic: false
   project: ""
-  provider: gke
+  provider: eks
+  gitKind: bitbucketserver
   zone: ""
 gitops: true
 environments:
